@@ -1,0 +1,10 @@
+<snippet>
+    <description>template &lt;typename ${1:T}&gt;</description>
+    <content><![CDATA[template <typename ${1:T}>
+${1:T} ${2:funct}(${1:T} ${3:x}) {
+    return ${3:x};
+}]]>
+    </content>
+    <tabTrigger>tf</tabTrigger>
+    <scope>source.c++, source.objc++</scope>
+</snippet>

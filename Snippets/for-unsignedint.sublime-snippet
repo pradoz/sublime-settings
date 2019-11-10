@@ -1,0 +1,8 @@
+<snippet>
+    <description>For Unsint</description>
+    <content><![CDATA[for (unsigned int ${2:i} = 0; $2 < ${1:count}; ${3:++$2}) {
+    ${0://}
+}]]></content>
+    <tabTrigger>foruns</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

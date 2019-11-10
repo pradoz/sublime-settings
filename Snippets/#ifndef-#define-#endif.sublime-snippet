@@ -1,0 +1,14 @@
+<snippet>
+    <description>#ifndef</description>
+    <content><![CDATA[ifndef ${1:FILENAME}_HPP
+#define ${1:FILENAME}_HPP
+
+#include "${2:FileName}.hpp"
+
+
+${0:class}
+
+#endif // ${1:FILENAME}_HPP]]></content>
+    <tabTrigger>#ifndef</tabTrigger>
+    <scope>source.c, source.c++, source.objc, source.objc++</scope>
+</snippet>
